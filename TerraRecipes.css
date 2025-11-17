@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Andy_Bold_Ru ;
+    src: url('Andy_Bold_0.otf');
+}
+body {
+    font-family: Andy_Bold_Ru;
+    background-image: url('img/Forest_background_10.png')  ;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    width: auto;
+    height: auto;
+
+}
+.title_icon {
+    width: 40px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+
+input {
+    font-family: Andy_Bold_Ru ;
+    padding: 5px;
+    border-radius: 0px;
+}
+
+
+button {
+font-display: initial;
+font-family: Andy_Bold_Ru;
+width: 100px;
+height: 25px;
+padding: 0%;
+border-radius: 10px;
+box-sizing: border-box;
+transition: all 500ms ease;
+cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.image_button{
+    background-attachment: fixed;
+}
+
+.fb {
+    display: flex;
+}
+
+.item_viewer {
+    margin-top: 5px;
+    width: 250px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.item_viewer img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.ico {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.item_viewer p{
+    margin: 0;
+    white-space: nowrap;
+}
+
+.card_holder {
+    margin: 40px 100px 100px 100px;
+    gap: 40px;
+}
+
+.card {
+    flex-direction: column;
+    background-color: rgba(18, 24, 104, 0.76);
+    border: 2px solid rgba(9, 12, 70, 0.76);
+    border-radius: 8px;
+    justify-content: center;
+    gap: 4px;
+}
+
+.card ul{
+    list-style-type: none;
+    padding-left: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card li{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.card_title {
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    background-color: rgb(4, 7, 53);
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 19px;
+    padding: 0 10px 0 10px;
+    margin: 4px 4px 0 4px;
+    border-radius: 5px;
+}
+
+.card_title img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.card_stuff {
+    flex-direction: column;
+    border: 2px solid rgb(4, 7, 53);
+    border-radius: 5px;
+    margin: 0 4px 0 4px;
+}
+
+.card_stuff span{
+    margin-left: auto;
+    margin-right: 7px;
+}
+
+.card_titles {
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    background-color: rgb(4, 7, 53);
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 20px;
+    /* border-radius: 5px; */
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+}
+
+.separator p{
+    margin: 0;
+}
+
+.end {
+    margin-bottom: 4px;
+}
+
+.nocard {
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 19px;
+    padding: 0 10px 0 10px;
+    margin: 4px 4px 0 4px;
+
+    background-color: rgba(18, 24, 104, 0.76);
+    border: 2px solid rgba(9, 12, 70, 0.76);
+    border-radius: 5px;
+}
