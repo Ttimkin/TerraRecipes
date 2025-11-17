@@ -3,8 +3,6 @@ const forCards = document.getElementById('forCards');
 const forItemImg = document.getElementById('forItemImg');
 const forItemName = document.getElementById('forItemName');
 
-// let isFirst = true;
-
 button.addEventListener('click', () => {
     const input = document.getElementById('input').value;
     if (input) {
@@ -149,4 +147,5 @@ button.addEventListener('click', () => {
                 };
             });
     };
+
 });
