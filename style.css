@@ -1,18 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: Andy_Bold_Ru ;
     src: url('Andy_Bold_0.otf');
 }
+
 body {
     font-family: Andy_Bold_Ru;
-    background-image: url('img/Forest_background_10.png')  ;
+    background-color: rgb(64, 64, 245);
+    background-image: url('img/Forest_background_10.png');
+    background-size: 100vh;
+    background-repeat: repeat-x;
+    background-position: bottom left;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    min-height: 100vh;
 }
+
 h1 {
     width: auto;
     height: auto;
-
+    margin-top: 15px;
 }
 .title_icon {
     width: 40px;
@@ -79,9 +90,11 @@ button:hover {
 .card_holder {
     margin: 40px 100px 100px 100px;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .card {
+    height: 100%;
     flex-direction: column;
     background-color: rgba(18, 24, 104, 0.76);
     border: 2px solid rgba(9, 12, 70, 0.76);
@@ -101,6 +114,10 @@ button:hover {
     display: flex;
     align-items: center;
     gap: 7px;
+}
+
+.card li+li{
+    margin-top: 10px;
 }
 
 .card_title {
